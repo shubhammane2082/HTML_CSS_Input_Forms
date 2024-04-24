@@ -83,13 +83,7 @@ input {
     height: 25px;
 }
 
-.text-error{
-    color: red;
-    font-size: 12px;
-    font-family: italic;
-}
-
-.emailError{
+.text-error,.numberError,.emailError,.numberError{
     color: red;
     font-size: 12px;
     font-family: italic;

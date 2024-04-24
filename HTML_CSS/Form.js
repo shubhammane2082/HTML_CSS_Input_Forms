@@ -28,3 +28,18 @@ else{
     emailError.textContent="Please Enter Correct Email...";
 }
 });
+
+document.addEventListener('input',function(){
+const number=document.querySelector('#number');
+const numberError=document.querySelector('.numberError');
+
+ let numberRegex=RegExp("^[0-9]{2,}[0-9]{10}$");
+
+ if(numberRegex.test(number.value))
+ {
+    numberError.textContent="";
+ }
+ else{
+    numberError.textContent="Please Enter Correct your Number...";
+ }
+});
