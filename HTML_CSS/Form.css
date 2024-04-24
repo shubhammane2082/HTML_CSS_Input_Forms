@@ -88,3 +88,9 @@ input {
     font-size: 12px;
     font-family: italic;
 }
+
+.emailError{
+    color: red;
+    font-size: 12px;
+    font-family: italic;
+}
