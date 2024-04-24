@@ -43,3 +43,18 @@ const numberError=document.querySelector('.numberError');
     numberError.textContent="Please Enter Correct your Number...";
  }
 });
+
+document.addEventListener('input',function(){
+    const password=document.querySelector('#password');
+    const passwordError=document.querySelector('.password-error');
+
+    let passwordRegex=RegExp("^[A-Za-z0-9]{8,}$");
+
+    if(passwordRegex.test(password.value))
+    {
+        passwordError.textContent="";
+    }
+    else{
+        passwordError.textContent="Please Enter correct password...";
+    }
+})
