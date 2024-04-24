@@ -1,0 +1,90 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.div1 {
+    height: 9%;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.main-div2 {
+    height: 9%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div2-div1{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-div2-div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.numberTextInput{
+    width: 28%;
+}
+
+.numberTextInput input
+{
+    width: 360px;
+}
+.date-input{
+    width: 29%;
+}
+.date-input input{
+    width: 359px;
+}
+.second-last{
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.second-last-div2{
+    width: 28%;
+}
+
+.second-last-div2 input{
+    width: 300px;
+}
+.last{
+    height: 9%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last button{
+    width: 40%;
+    height: 25px;
+}
+
+.text-error{
+    color: red;
+    font-size: 12px;
+    font-family: italic;
+}
